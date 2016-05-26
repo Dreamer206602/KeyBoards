@@ -605,14 +605,14 @@ public class KeyboardUtil {
      * @description:TODO 输入监听
      */
     public interface InputFinishListener {
-        public void inputHasOver(int onclickType, EditText editText);
+         void inputHasOver(int onclickType, EditText editText);
     }
 
     /**
      * 监听键盘变化
      */
     public interface KeyBoardStateChangeListener{
-        public void KeyBoardStateChange(int state, EditText editText);
+         void KeyBoardStateChange(int state, EditText editText);
     }
 
     public void setKeyBoardStateChangeListener(KeyBoardStateChangeListener listener){
